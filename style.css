@@ -1,0 +1,101 @@
+
+
+ul{
+    list-style-type: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+nav{
+    padding: 20px;
+}
+
+.hero{
+    color: white;
+    background-image: url('img/travel_bck.jpg');
+    height: 890px;
+    
+}
+.hero img{
+    width: 100%;
+    height: 700px;
+}
+
+.container0{
+    margin-right: 50px;
+    margin-top: 70px;
+}
+
+h1{
+    font-weight:800;
+    margin: 10px;
+}
+
+h5{
+    font-weight:500;
+    margin: 10px;
+}
+
+button{
+    width: 130px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.destination{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    grid-template-areas: 
+    "card1 card2 card3"    ;
+
+}
+
+.card{
+    padding: 10px;
+}
+
+.destination1{
+
+    grid-area: card1;
+}
+.destination2{
+    grid-area: card2;
+}
+.destination3{
+    grid-area: card3;
+}
+
+.tour{
+    padding: 30px;
+    background-color: rgb(231, 231, 231);
+}
+
+
+.contact{
+    padding: 30px;
+}
+
+.contact-form{
+    margin: 20px;
+}
+
+footer{
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+.social-media li {
+    margin:5px;
+}
+.social-media li a {
+    color: #333;
+    font-size: 20px;
+}
+.social-media li a:hover {
+    color: #007bff;
+}
